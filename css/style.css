@@ -27,7 +27,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 25%;
+    gap: 5rem;
 }
 .nav-item{
     list-style-type: none;
@@ -36,6 +36,12 @@ nav{
     text-decoration: none;
     color: var(--Secondary-text-color);
     font-size: 18px;
+    transition: all 1s linear;
+    
+}
+
+.nav-item a:hover{
+color: #3882f6;
 }
 .header h1{
     font-size: 24px;
@@ -55,11 +61,11 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 .hero-info{
-    width: 15%;
+    width: 13%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -87,6 +93,15 @@ nav{
     border: none;
     background:  #3882f6;
     color: var(--Primary-text-color);
+    transition: all 1s linear;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    border: 2px solid #3882f6;
+    color: #3882f6;
+    background-color: white;
+    cursor: pointer;
 }
 
 
@@ -111,12 +126,12 @@ nav{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 5rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
+
 .card-img{
-    background-image: url(/images/photo-1587329310686-91414b8e3cb7.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -124,22 +139,50 @@ nav{
     height: 200px;
     width: 100%;
     border: 2px solid #3882f6;
+    transition: all 1s linear;
     
+}
+
+.card-img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.card-img-1{
+    background-image: url(/images/messi.jpg);
+}
+.card-img-2{
+    background-image: url(/images/bruno.png);
+}
+.card-img-3{
+    background-image: url(/images/06-salah-209331-en.png.adapt.crop16x9.652w.png);
+}
+.card-img-4{
+    background-image: url(/images/206517.png.adapt.265w.png);
 }
 .card{
     width: 190px;
 }
 .card-info{
     color:  #1f2937;
-    text-align: center;
     margin-top: 0.5rem;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 .grid-header{
-    color: #1f2917;
+    color: #3882f6;
     font-weight: bold;
+    border-bottom: 2px solid #3882f6;
 }
 
+span{
+    font-weight: bold;
+    color: #3882f6;
+}
 
 
 
@@ -209,7 +252,16 @@ cite{
     border-radius: 0.5rem;
     font-weight: bold;
     width: fit-content;
+    transition: all 1s linear;
+    text-transform: uppercase;
 
+}
+
+.call-btn:hover{
+    background-color: white;
+    border: none;
+    color: #3882f6;
+    cursor: pointer;
 }
 
 
