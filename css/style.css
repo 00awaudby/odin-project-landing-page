@@ -79,7 +79,7 @@ color: #3882f6;
    font-size: 36px;
     
 }.hero-img{
-    background-image: url(/images/photo-1587329310686-91414b8e3cb7.webp);
+    background-image: url(./images/photo-1587329310686-91414b8e3cb7.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -149,16 +149,16 @@ color: #3882f6;
     margin-bottom: 2rem;
 }
 .card-img-1{
-    background-image: url(/images/messi.jpg);
+    background-image: url(./images/messi.jpg);
 }
 .card-img-2{
-    background-image: url(/images/bruno.png);
+    background-image: url(./images/bruno.png);
 }
 .card-img-3{
-    background-image: url(/images/06-salah-209331-en.png.adapt.crop16x9.652w.png);
+    background-image: url(.images/06-salah-209331-en.png.adapt.crop16x9.652w.png);
 }
 .card-img-4{
-    background-image: url(/images/206517.png.adapt.265w.png);
+    background-image: url(./images/206517.png.adapt.265w.png);
 }
 .card{
     width: 190px;
