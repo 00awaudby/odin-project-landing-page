@@ -149,16 +149,16 @@ color: #3882f6;
     margin-bottom: 2rem;
 }
 .card-img-1{
-    background-image: url(./images/messi.jpg);
+    background-image: url('https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmlmYXxlbnwwfHwwfHx8MA%3D%3D');
 }
 .card-img-2{
-    background-image: url(./images/bruno.png);
+    background-image: url('https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmlmYXxlbnwwfHwwfHx8MA%3D%3D');
 }
 .card-img-3{
-    background-image: url(.images/06-salah-209331-en.png.adapt.crop16x9.652w.png);
+    background-image: url('https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmlmYXxlbnwwfHwwfHx8MA%3D%3D');
 }
 .card-img-4{
-    background-image: url(./images/206517.png.adapt.265w.png);
+    background-image: url('https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmlmYXxlbnwwfHwwfHx8MA%3D%3D');
 }
 .card{
     width: 190px;
